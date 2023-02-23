@@ -15,12 +15,12 @@
       <link rel="stylesheet" href="styles/sidebar.css">
   </head>
   <body >
-    <header></header>
-    <nav></nav>
     <header class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="header-icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="header-icons/youtube-logo.svg">
+        <a href="https://www.youtube.com/">
+          <img class="youtube-logo" src="header-icons/youtube-logo.svg">
+        </a>
       </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Search">
@@ -53,50 +53,71 @@
     </header>
 
     <nav class="sidebar">
-      <div class="sidebar-link">
-        <img src="sidebar-icons/home.svg">
-        <div>Home</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="sidebar-icons/explore.svg">
-        <div>Explore</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="sidebar-icons/subscriptions.svg">
-        <div>Subscriptions</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="sidebar-icons/originals.svg">
-        <div>Originals</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="sidebar-icons/youtube-music.svg">
-        <div>YouTube Music</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="sidebar-icons/library.svg">
-        <div>Library</div>
-      </div>
+      <a href="https://www.youtube.com/">
+        <div class="sidebar-link">
+          <img src="sidebar-icons/home.svg">
+          <div>Home</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/hashtag/explore">
+        <div class="sidebar-link">
+          <img src="sidebar-icons/explore.svg">
+          <div>Explore</div>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/feed/subscriptions">
+        <div class="sidebar-link">
+          <img src="sidebar-icons/subscriptions.svg">
+          <div>Subscriptions</div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ">
+        <div class="sidebar-link">
+          <img src="sidebar-icons/originals.svg">
+          <div>Originals</div>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ">
+        <div class="sidebar-link">
+          <img src="sidebar-icons/youtube-music.svg">
+          <div>YouTube Music</div>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/feed/library">
+        <div class="sidebar-link">
+          <img src="sidebar-icons/library.svg">
+          <div>Library</div>
+        </div>
+      </a>
     </nav>
     
     <main>
       <section class="video-grid">
         <div class="video-preview">
-  
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
             <div class="video-time">14:20</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a  href="https://www.youtube.com/c/mkbhd">
+                <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              </a>
+              
             </div>
     
             <div class="video-info">
-              <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
-              </p>
+                <p class="video-title">
+                  <a class="video-title" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                    Talking Tech and AI with Google CEO Sunder Pichai!
+                  </a> 
+                </p>
               
               <p class="video-author">
                 Marques Browniee
@@ -112,18 +133,26 @@
         <div class="video-preview">
     
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </a>
+
             <div class="video-time">8:22</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-2.jpeg">
+              <a href="https://www.youtube.com/c/markiplier">
+                <img class="profile-picture" src="channel-profile-pictures/channel-2.jpeg">
+              </a>
+
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Try Not To Laugh Challenge #9
+                <a class="video-title" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                  Try Not To Laugh Challenge #9
+                </a>
               </p>
               
               <p class="video-author">
@@ -136,23 +165,28 @@
             </div>
           </div>
         </div>
-    
         
         <div class="video-preview">
     
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            </a>
             <div class="video-time">9:13</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-3.jpeg">
+              <a href="https://www.youtube.com/user/SSSniperWolf">
+                <img class="profile-picture" src="channel-profile-pictures/channel-3.jpeg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Crazy Tik Toks Taken Moments Before DISASTER
+                <a class="video-title" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                  Crazy Tik Toks Taken Moments Before DISASTER
+                </a>
               </p>
               
               <p class="video-author">
@@ -169,18 +203,24 @@
         <div class="video-preview">
     
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            </a>
             <div class="video-time">22:09</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-4.jpeg">
+              <a href="https://www.youtube.com/c/veritasium">
+                <img class="profile-picture" src="channel-profile-pictures/channel-4.jpeg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                <a class="video-title" href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                </a>
               </p>
               
               <p class="video-author">
@@ -193,23 +233,28 @@
             </div>
           </div>
         </div>
-    
-        
+      
         <div class="video-preview">
     
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            </a>
             <div class="video-time">11:17</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-5.jpeg">
+              <a href="https://www.youtube.com/c/CSDojo">
+                <img class="profile-picture" src="channel-profile-pictures/channel-5.jpeg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Kadane's Algorithm to Maximum Sum Subarray Problem
+                <a class="video-title" href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                  Kadane's Algorithm to Maximum Sum Subarray Problem
+                </a>
               </p>
               
               <p class="video-author">
@@ -226,18 +271,24 @@
         <div class="video-preview">
     
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            </a>
             <div class="video-time">19:59</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-6.jpeg">
+              <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                <img class="profile-picture" src="channel-profile-pictures/channel-6.jpeg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Anything You Can Fit In The Circle I'll Pay For
+                <a class="video-title" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                  Anything You Can Fit In The Circle I'll Pay For
+                </a>
               </p>
               
               <p class="video-author">
@@ -250,264 +301,901 @@
             </div>
           </div>
         </div>
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+            </a>
+            <div class="video-time">6:31:24</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                  HTML & CSS Full COurse-Beginner to Pro
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                3.4M views &#183; 1 year ago
               </p>
             </div>
           </div>
         </div>
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+            </a>
+            <div class="video-time">29:37</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=p1QU3kLFPdg">
+                  How to put an HTML website online(on the Internet)
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                355K views &#183; 10 months ago
               </p>
             </div>
           </div>
         </div>
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=DqaTKBU9TZk&t=627s">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+            </a>
+            <div class="video-time">1:45:11</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=DqaTKBU9TZk&t=627s">
+                  BEST JavaScript Tutorial for Beginners for Getting a Job 2021(High 
+                  Quality, Project Based Course)
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                469K views &#183; 1 year ago
               </p>
             </div>
           </div>
         </div>
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=hrTQipWp6co">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+            </a>
+            <div class="video-time">36:57</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=hrTQipWp6co">
+                  Git and GitHub-0 Experience to Professional in 1 Tutorial(Part 1)
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                71K views &#183; 1 year ago
               </p>
             </div>
           </div>
         </div>
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=1ibmWyt8hfw">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+            </a>
+            <div class="video-time">56:02</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
+
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=1ibmWyt8hfw">
+                  Git and GitHub-0 Experience to Professional in 1 Tutorial(Part 2)
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                30K views &#183; 1 year ago
               </p>
             </div>
           </div>
         </div>
-        
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=Q1kHG842HoI">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+            </a>
+            <div class="video-time">54:28</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
+
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=Q1kHG842HoI">
+                  Git Branching and Mering-Detailed Tutorial
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                53K views &#183; 1 year ago
               </p>
             </div>
           </div>
         </div>
-        
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=Ka77djMkSwg">
+              <img class="thumbnail" src="thumbnails/thumbnail-13.webp">
+            </a>
+            <div class="video-time">8:06</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-profile-pictures/channal-7.jpg">
+              </a>
+
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=Ka77djMkSwg">
+                  What is a JavaScript Framework? (in detail)       
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                SuperSimpleDev
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                73K views &#183; 2 year ago
               </p>
             </div>
           </div>
         </div>
-        
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=BIjY8-CfnJs&list=WL&index=17&t=1s">
+              <img class="thumbnail" src="thumbnails/thumbnail-14.webp">
+            </a>
+
+            <div class="video-time">5:06</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@NarendraModi">
+                <img class="profile-picture" src="channel-profile-pictures/channel-14.jpg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
-              </p>
-              
+                <a class="video-title" href="https://www.youtube.com/watch?v=BIjY8-CfnJs&list=WL&index=17&t=1s">
+                  Unmissable! Moments from PM Modi's interaction with recue teams of Operation Dost
+                  in Turkiye
+                </a>
+              </p>              
               <p class="video-author">
-                Marques Browniee
+                Narendra Modi &#10003;
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                2.6M views &#183; 1 day ago
               </p>
             </div>
           </div>
         </div>
-        
-        
+
         <div class="video-preview">
-  
+    
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
+            <a href="https://www.youtube.com/watch?v=2SXno61FX2k&list=WL&index=16">
+              <img class="thumbnail" src="thumbnails/thumbnail-15.webp">
+            </a>
+            <div class="video-time">13:16</div>
           </div>
       
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="channel-profile-pictures/channel-1.jpeg">
+              <a href="https://www.youtube.com/@anshikagupta111">
+                <img class="profile-picture" src="channel-profile-pictures/channel-15.jpg">
+              </a>
             </div>
     
             <div class="video-info">
               <p class="video-title">
-                Talking Tech ans AI with Google CEO Sunder Pichai!
+                <a class="video-title" href="https://www.youtube.com/watch?v=2SXno61FX2k&list=WL&index=16">
+                  Top 5 Frontend Projects with resources to get placement | Projects 
+                  for final year students
+                </a>
               </p>
               
               <p class="video-author">
-                Marques Browniee
+                Anshika Gupta
               </p>
           
               <p class="video-stats">
-                3.4M views &#183; 6 months ago
+                156K views views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=B-ytMSuwbf8&list=WL&index=15">
+              <img class="thumbnail" src="thumbnails/thumbnail-16.webp">
+            </a>
+            <div class="video-time">5:18:44</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@envatotuts">
+                <img class="profile-picture" src="channel-profile-pictures/channel-16.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=B-ytMSuwbf8&list=WL&index=15">
+                  Web Design for Beginners| Free COURSE
+                </a>
+              </p>
+              
+              <p class="video-author">
+                Envato Tuts+ 	&#10003;
+              </p>
+          
+              <p class="video-stats">
+                2.2M views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=BPV5n7HaZZI&list=WL&index=14">
+              <img class="thumbnail" src="thumbnails/thumbnail-17.webp">
+            </a>
+            <div class="video-time">12:09</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@StarTalk">
+                <img class="profile-picture" src="channel-profile-pictures/channel-17.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=BPV5n7HaZZI&list=WL&index=14">
+                  How An Astrophysicist Makes Toast with Neil deGrasse Tyson
+                </a>
+              </p>
+              
+              <p class="video-author">
+                StarTalk 	&#10003;
+              </p>
+          
+              <p class="video-stats">
+                42K views &#183; 18 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=dTSbcI44QkA&list=WL&index=13">
+              <img class="thumbnail" src="thumbnails/thumbnail-18.webp">
+            </a>
+            <div class="video-time">28:54</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TheViralFever">
+                <img class="profile-picture" src="channel-profile-pictures/channel-18.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=dTSbcI44QkA&list=WL&index=13">
+                  SK Sir Ki Class | EP1-Chakravyuh | Watch in Hindi, Tamil or Telugu | TVF
+                </a>
+              </p>
+              
+              <p class="video-author">
+                The Viral Fever &#10003;
+              </p>
+          
+              <p class="video-stats">
+                3.3M views &#183; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9kfScGV6W1Y&list=WL&index=12">
+              <img class="thumbnail" src="thumbnails/thumbnail-19.webp">
+            </a>
+            <div class="video-time">12:27</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SinghinUSA">
+                <img class="profile-picture" src="channel-profile-pictures/channel-19.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=9kfScGV6W1Y&list=WL&index=12">
+                  Challenging Google's Top Feeder College Students? Ft. UC Barkeley
+                </a>
+              </p>
+              
+              <p class="video-author">
+                Singh in USA &#10003;
+              </p>
+          
+              <p class="video-stats">
+                2.2M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=an0rksMcJoA&list=WL&index=11">
+              <img class="thumbnail" src="thumbnails/thumbnail-20.webp">
+            </a>
+            <div class="video-time">6:50</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@aadarshdandriyal">
+                <img class="profile-picture" src="channel-profile-pictures/channel-20.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=an0rksMcJoA&list=WL&index=11">
+                  How to Bulk Up Fast For Skinny Guy | Skinny to Muscualar(My Coplete Guide)
+                </a>
+              </p>
+              
+              <p class="video-author">
+                Aadarsh Dandriyal
+              </p>
+          
+              <p class="video-stats">
+                921K views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Nro6oFD3oHw&list=WL&index=10&t=8s">
+              <img class="thumbnail" src="thumbnails/thumbnail-21.webp">
+            </a>
+
+            <div class="video-time">20:01</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@harkirat1">
+                <img class="profile-picture" src="channel-profile-pictures/channel-21.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=Nro6oFD3oHw&list=WL&index=10&t=8s">
+                  Coding Habits that earned me a 4 Crores Package!
+                </a>
+              </p>
+              
+              <p class="video-author">
+                Harkirat Singh
+              </p>
+          
+              <p class="video-stats">
+                336K views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yu0Tg6eD-eM&list=WL&index=9">
+              <img class="thumbnail" src="thumbnails/thumbnail-22.webp">
+            </a>
+            <div class="video-time">12:47</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CollegeWallahbyPW">
+                <img class="profile-picture" src="channel-profile-pictures/channel-22.jpeg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=yu0Tg6eD-eM&list=WL&index=9">
+                  Dark Reality of On Campus placements in India | On Campus Placements in Colleges
+                </a>
+              </p>
+              
+              <p class="video-author">
+                College Wallah
+              </p>
+          
+              <p class="video-stats">
+                73K views &#183; 2 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=OWa3F4bKJsE&list=WL&index=8">
+
+            </a>
+            <img class="thumbnail" src="thumbnails/thumbnail-23.webp">
+            <div class="video-time">13:01</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@NewMind">
+                <img class="profile-picture" src="channel-profile-pictures/channel-23.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=OWa3F4bKJsE&list=WL&index=8">
+                  The Science Of Flatness
+                </a>
+              </p>
+              
+              <p class="video-author">
+                New Mind &#10003;
+              </p>
+          
+              <p class="video-stats">
+                3M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=OZowHEjWn0E&list=WL&index=7">
+              <img class="thumbnail" src="thumbnails/thumbnail-24.webp">
+            </a>
+            <div class="video-time">10:25</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@AbdiRPC4789">
+                <img class="profile-picture" src="channel-profile-pictures/channel-24.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=OZowHEjWn0E&list=WL&index=7">
+                  Windows 12.1
+                </a>
+              </p>
+              
+              <p class="video-author">
+                AR 4789
+              </p>
+          
+              <p class="video-stats">
+                4.9M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=PFmuCDHHpwk&list=WL&index=6">
+              <img class="thumbnail" src="thumbnails/thumbnail-25.webp">
+            </a>
+            <div class="video-time">1:02:49</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a  href="https://www.youtube.com/@programmingwithmosh">
+                <img class="profile-picture" src="channel-profile-pictures/channel-25.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=PFmuCDHHpwk&list=WL&index=6">
+                  Obeject-oriented Programming in JavaScript: Made Super Simple | Mosh
+                </a>
+              </p>
+              
+              <p class="video-author">
+                Programming with Mosh &#10003;
+              </p>
+          
+              <p class="video-stats">
+                1.6M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=u64gyCdqawU&list=WL&index=5">
+              <img class="thumbnail" src="thumbnails/thumbnail-26.webp">
+            </a>
+            <div class="video-time">41:01:37</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@wscubetech">
+                <img class="profile-picture" src="channel-profile-pictures/channel-26.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=u64gyCdqawU&list=WL&index=5">
+                  Android App Development Course for Beginners-Learn Android Development in 41 Hours
+                </a>
+              </p>
+              
+              <p class="video-author">
+                WsCube Tech &#10003;
+              </p>
+          
+              <p class="video-stats">
+                444K views &#183; 5 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/@10xincome">
+              <img class="thumbnail" src="thumbnails/thumbnail-27.webp">
+            </a>
+            <div class="video-time">8:19</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="">
+                <img class="profile-picture" src="channel-profile-pictures/channel-27.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/@10xincome">
+                  How To Make PASSIVE INCOME With ChatGPT & Midjourney AI?
+                </a>
+              </p>
+              
+              <p class="video-author">
+                10X INCOME
+              </p>
+          
+              <p class="video-stats">
+                1.5M views &#183; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Ezy1KTNF6dw&list=WL&index=3">
+              <img class="thumbnail" src="thumbnails/thumbnail-28.webp">
+            </a>
+            <div class="video-time">5:34</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@davidbombal">
+                <img class="profile-picture" src="channel-profile-pictures/channel-28.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=Ezy1KTNF6dw&list=WL&index=3">
+                  It's too easy to own a WiFi network
+                </a>
+              </p>
+              
+              <p class="video-author">
+                David Bombal &#10003;
+              </p>
+          
+              <p class="video-stats">
+                3M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=D0VFPAZ50Yk&list=WL&index=2">
+              <img class="thumbnail" src="thumbnails/thumbnail-29.webp">
+            </a>
+            <div class="video-time">7:15</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@NewMind">
+                <img class="profile-picture" src="channel-profile-pictures/channel-29.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=D0VFPAZ50Yk&list=WL&index=2">
+                  The Stunning Images Of Mars Curiosity Rover
+                </a> 
+              </p>
+              
+              <p class="video-author">
+                New Mind &#10003;
+              </p>
+          
+              <p class="video-stats">
+                4.5M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=K8YELRmUb5o&list=WL&index=1">
+              <img class="thumbnail" src="thumbnails/thumbnail-30.webp">
+            </a>
+            <div class="video-time">5:28:21</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@EdRohDev">
+                <img class="profile-picture" src="channel-profile-pictures/channel-30.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=K8YELRmUb5o&list=WL&index=1">
+                  Build a COMPLETE Fullstack Responsive MERN App with Auth, Like, Dark Mode | 
+                  React, MongoDB, MUI
+                </a>
+              </p>
+              
+              <p class="video-author">
+                EdRoh
+              </p>
+          
+              <p class="video-stats">
+                304K views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=OczrdOqAs-k">
+              <img class="thumbnail" src="thumbnails/thumbnail-31.webp">
+            </a>
+            <div class="video-time">2:30</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@melodysheep">
+                <img class="profile-picture" src="channel-profile-pictures/channel-31.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=OczrdOqAs-k">
+                  THE HUMAN FUTURE: Official Trailer
+                </a>
+              </p>
+              
+              <p class="video-author">
+                melodysheep &#10003;
+              </p>
+          
+              <p class="video-stats">
+                182K views &#183; 5 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=HVjjoMvutj4">
+              <img class="thumbnail" src="thumbnails/thumbnail-32.webp">
+            </a>
+            <div class="video-time">28:16:48</div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@wscubetech">
+                <img class="profile-picture" src="channel-profile-pictures/channel-32.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-title" href="https://www.youtube.com/watch?v=HVjjoMvutj4">
+                  Web Development Complete Course [30 Hours] | Learn Full Stack Web Development
+                  From Basic
+                </a>
+              </p>
+              
+              <p class="video-author">
+                WsCube Tech &#10003;
+              </p>
+          
+              <p class="video-stats">
+                577K views &#183; 1 month ago
               </p>
             </div>
           </div>
         </div>
       </section>
     </main>
-
   </body>
 </html> 
